@@ -1,0 +1,56 @@
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:55:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid g_thread_init(gpointer)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   g_thread_init(NULL[01;35m[K)[m[K;
+                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/glib-2.0/glib.h:108:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkconfig.h:13[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:30[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:3[m[K:
+[01m[K/usr/include/glib-2.0/glib/deprecated/gthread.h:265:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ void     [01;36m[Kg_thread_init[m[K                   (gpointer vtable);
+          [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/glib-2.0/gobject/gobject.h:28:0[m[K,
+                 from [01m[K/usr/include/glib-2.0/gobject/gbinding.h:29[m[K,
+                 from [01m[K/usr/include/glib-2.0/glib-object.h:23[m[K,
+                 from [01m[K/usr/include/glib-2.0/gio/gioenums.h:28[m[K,
+                 from [01m[K/usr/include/glib-2.0/gio/giotypes.h:28[m[K,
+                 from [01m[K/usr/include/glib-2.0/gio/gio.h:26[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkapplaunchcontext.h:28[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:32[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:3[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:77:61:[m[K [01;31m[Kerror: [m[K‘[01m[KkfrDisplay[m[K’ was not declared in this scope
+   g_signal_connect (app, "activate", G_CALLBACK (buildUI), &[01;31m[Kk[m[KfrDisplay);
+                                                             [01;31m[K^[m[K
+[01m[K/usr/include/glib-2.0/gobject/gsignal.h:475:73:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kg_signal_connect[m[K’
+     g_signal_connect_data ((instance), (detailed_signal), (c_handler), ([01;36m[Kdata[m[K), NULL, (GConnectFlags) 0)
+                                                                         [01;36m[K^~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:77:61:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KKFRDisplay[m[K’
+   g_signal_connect (app, "activate", G_CALLBACK (buildUI), &[01;36m[Kk[m[KfrDisplay);
+                                                             [01;36m[K^[m[K
+[01m[K/usr/include/glib-2.0/gobject/gsignal.h:475:73:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[Kg_signal_connect[m[K’
+     g_signal_connect_data ((instance), (detailed_signal), (c_handler), ([01;36m[Kdata[m[K), NULL, (GConnectFlags) 0)
+                                                                         [01;36m[K^~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:84:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KSKWrapper[m[K’
+     skw[01;31m[K->[m[KdoOnce();
+        [01;31m[K^~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:86:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ was not declared in this scope
+     [01;31m[Krate[m[K.sleep();
+     [01;31m[K^~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:86:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGDate[m[K’
+     [01;36m[Krate[m[K.sleep();
+     [01;36m[K^~~~[m[K
+     [32m[KGDate[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:90:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ was not declared in this scope
+   pthread_join([01;31m[Kthread[m[K, NULL);
+                [01;31m[K^~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:90:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGThread[m[K’
+   pthread_join([01;36m[Kthread[m[K, NULL);
+                [01;36m[K^~~~~~[m[K
+                [32m[KGThread[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

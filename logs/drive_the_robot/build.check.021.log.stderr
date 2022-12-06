@@ -1,0 +1,18 @@
+[31m[1mCMake Error[0m at /home/ujjaini/catkin_ws/src/drive_the_robot/CMakeLists.txt:20 (find_package):
+  By not providing "FindCairo.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Cairo", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Cairo" with any of
+  the following names:
+
+    CairoConfig.cmake
+    cairo-config.cmake
+
+  Add the installation prefix of "Cairo" to CMAKE_PREFIX_PATH or set
+  "Cairo_DIR" to a directory containing one of the above files.  If "Cairo"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+make: *** [cmake_check_build_system] Error 1

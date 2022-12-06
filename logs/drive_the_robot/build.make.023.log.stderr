@@ -1,0 +1,34 @@
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPacket.cpp:3:10:[m[K [01;31m[Kfatal error: [m[KMKPPool.h: No such file or directory
+ #include [01;31m[K"MKPPool.h"[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKReceive.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSKReceive[m[K’ does not name a type
+ [01;31m[KSKReceive[m[K::writeToFile(SKPacket& skp){
+ [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:[m[K In member function ‘[01m[Kvirtual void SKPRSaveFrame::receiveFrame(SKPacket&)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kskp[m[K’ was not declared in this scope
+         writeToFile([01;31m[Kskp[m[K);
+                     [01;31m[K^~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:28:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmkp[m[K’
+         writeToFile([01;36m[Kskp[m[K);
+                     [01;36m[K^~~[m[K
+                     [32m[Kmkp[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:[m[K In member function ‘[01m[Kvoid SKPRSaveFrame::writeToFile(SKPacket&)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:45:50:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KSKWrapper[m[K’
+         vector<uint8_t> v = skp.getSKWrapper()[0][01;31m[K->[m[KgetRawCalibration();
+                                                  [01;31m[K^~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:58:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SKConfig[m[K’ has no member named ‘[01m[K_nCameras[m[K’
+     for(size_t i = 0; i < skp.getConfig().[01;31m[K_nCameras[m[K; i++) {
+                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:66:48:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KSKPacket[m[K’ and ‘[01m[Ksize_t {aka long unsigned int}[m[K’)
+         cv::imwrite(imagePath + "bgra.jpg", skp[01;31m[K[[m[Ki].getRGBColor());
+                                                [01;31m[K^[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:67:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KSKPacket[m[K’ and ‘[01m[Ksize_t {aka long unsigned int}[m[K’)
+         cv::imwrite(imagePath + "rgb_depth.jpg", skp[01;31m[K[[m[Ki].getRGBDepth());
+                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKReceive.cpp.o] Error 1
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRSaveFrame.cpp.o] Error 1
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

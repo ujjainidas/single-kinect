@@ -1,0 +1,36 @@
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:20:13:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::Rate::Rate()[m[K’
+   ros::Rate [01;31m[Kloop_rate[m[K;
+             [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:39:0[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRColorBlob.h:4[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/rate.h:59:12:[m[K [01;36m[Knote: [m[Kcandidate: ros::Rate::Rate(const ros::Duration&)
+   explicit [01;36m[KRate[m[K(const Duration&);
+            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/rate.h:59:12:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/melodic/include/ros/rate.h:58:3:[m[K [01;36m[Knote: [m[Kcandidate: ros::Rate::Rate(double)
+   [01;36m[KRate[m[K(double frequency);
+   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/rate.h:58:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/melodic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[Kcandidate: constexpr ros::Rate::Rate(const ros::Rate&)
+ class ROSTIME_DECL [01;36m[KRate[m[K
+                    [01;36m[K^~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/opt/ros/melodic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[Kcandidate: constexpr ros::Rate::Rate(ros::Rate&&)
+[01m[K/opt/ros/melodic/include/ros/rate.h:51:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:63:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid g_thread_init(gpointer)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   g_thread_init(NULL[01;35m[K)[m[K;
+                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/glib-2.0/glib.h:108:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkconfig.h:13[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:30[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:3[m[K:
+[01m[K/usr/include/glib-2.0/glib/deprecated/gthread.h:265:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ void     [01;36m[Kg_thread_init[m[K                   (gpointer vtable);
+          [01;36m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,45 @@
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRAprilTag.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRAprilTag.h:5:10:[m[K [01;31m[Kfatal error: [m[Kapriltag/apriltag.h: No such file or directory
+ #include [01;31m[K<apriltag/apriltag.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRAprilTag.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPPool.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KMKConfig.h: No such file or directory
+ #include [01;31m[K"MKConfig.h"[m[K
+          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPPool.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:27:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kchatter_pub[m[K’ was not declared in this scope
+     [01;31m[Kchatter_pub[m[K.publish(msg);
+     [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:[m[K In member function ‘[01m[Kvirtual void SKPRColorBlob::receiveFrame(SKPacket&)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:20:19:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass SKPacket[m[K’
+     cv::Mat rgb = [01;31m[Kpkt[m[K.getRGBColor();
+                   [01;31m[K^~~[m[K
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRColorBlob.h:6:0[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:3[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRecipient.h:4:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass SKPacket[m[K’
+ class [01;36m[KSKPacket[m[K;
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:122:5:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass SKPacket[m[K’
+     [01;31m[Kpkt[m[K.allocateCVMat(output.rows, output.cols, CV_8UC3, "blue blobs");
+     [01;31m[K^~~[m[K
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRColorBlob.h:6:0[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:3[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRecipient.h:4:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass SKPacket[m[K’
+ class [01;36m[KSKPacket[m[K;
+       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:123:19:[m[K [01;31m[Kerror: [m[Kinvalid use of incomplete type ‘[01m[Kclass SKPacket[m[K’
+     output.copyTo([01;31m[Kpkt[m[K.getCVMat("blue blobs"));
+                   [01;31m[K^~~[m[K
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRColorBlob.h:6:0[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:3[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRecipient.h:4:7:[m[K [01;36m[Knote: [m[Kforward declaration of ‘[01m[Kclass SKPacket[m[K’
+ class [01;36m[KSKPacket[m[K;
+       [01;36m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRColorBlob.cpp.o] Error 1
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

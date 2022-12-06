@@ -1,0 +1,134 @@
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:[m[K In member function ‘[01m[Kgboolean KFRDisplay::doDraw(cairo_t*)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:58:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gdk_pixbuf_unref(GdkPixbuf*)[m[K’ is deprecated: Use 'g_object_unref' instead [[01;35m[K-Wdeprecated-declarations[m[K]
+         gdk_pixbuf_unref(pixbuf[01;35m[K)[m[K;
+                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:34:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkpixbuf.h:33[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkcairo.h:29[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:33[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:1[m[K:
+[01m[K/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:232:12:[m[K [01;36m[Knote: [m[Kdeclared here
+ void       [01;36m[Kgdk_pixbuf_unref[m[K    (GdkPixbuf *pixbuf);
+            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:55:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid g_thread_init(gpointer)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   g_thread_init(NULL[01;35m[K)[m[K;
+                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/glib-2.0/glib.h:108:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkconfig.h:13[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:30[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:3[m[K:
+[01m[K/usr/include/glib-2.0/glib/deprecated/gthread.h:265:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ void     [01;36m[Kg_thread_init[m[K                   (gpointer vtable);
+          [01;36m[K^~~~~~~~~~~~~[m[K
+CMakeFiles/drive_the_robot.dir/src/KFRDisplay.cpp.o: In function `KFRDisplay::buildWidgets(_GtkWidget*)':
+KFRDisplay.cpp:(.text+0xf0): undefined reference to `gtk_drawing_area_new'
+KFRDisplay.cpp:(.text+0x108): undefined reference to `gtk_container_get_type'
+KFRDisplay.cpp:(.text+0x11a): undefined reference to `g_type_check_instance_cast'
+KFRDisplay.cpp:(.text+0x125): undefined reference to `gtk_container_add'
+KFRDisplay.cpp:(.text+0x13a): undefined reference to `g_type_check_instance_cast'
+KFRDisplay.cpp:(.text+0x163): undefined reference to `g_signal_connect_data'
+CMakeFiles/drive_the_robot.dir/src/KFRDisplay.cpp.o: In function `KFRDisplay::receiveFrame(SKPacket&)':
+KFRDisplay.cpp:(.text+0x208): undefined reference to `gtk_widget_queue_draw'
+CMakeFiles/drive_the_robot.dir/src/KFRDisplay.cpp.o: In function `KFRDisplay::doDraw(_cairo*)':
+KFRDisplay.cpp:(.text+0x2dd): undefined reference to `gdk_pixbuf_new_from_data'
+KFRDisplay.cpp:(.text+0x300): undefined reference to `gdk_cairo_set_source_pixbuf'
+KFRDisplay.cpp:(.text+0x318): undefined reference to `gdk_pixbuf_unref'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::image(k4a::image const&)':
+SKPacket.cpp:(.text._ZN3k4a5imageC2ERKS0_[_ZN3k4a5imageC5ERKS0_]+0x35): undefined reference to `k4a_image_reference'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::operator=(k4a::image const&)':
+SKPacket.cpp:(.text._ZN3k4a5imageaSERKS0_[_ZN3k4a5imageaSERKS0_]+0x4b): undefined reference to `k4a_image_reference'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::reset()':
+SKPacket.cpp:(.text._ZN3k4a5image5resetEv[_ZN3k4a5image5resetEv]+0x23): undefined reference to `k4a_image_release'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::create(k4a_image_format_t, int, int, int)':
+SKPacket.cpp:(.text._ZN3k4a5image6createE18k4a_image_format_tiii[_ZN3k4a5image6createE18k4a_image_format_tiii]+0x49): undefined reference to `k4a_image_create'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::create_from_buffer(k4a_image_format_t, int, int, int, unsigned char*, unsigned long, void (*)(void*, void*), void*)':
+SKPacket.cpp:(.text._ZN3k4a5image18create_from_bufferE18k4a_image_format_tiiiPhmPFvPvS3_ES3_[_ZN3k4a5image18create_from_bufferE18k4a_image_format_tiiiPhmPFvPvS3_ES3_]+0x6d): undefined reference to `k4a_image_create_from_buffer'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::get_buffer()':
+SKPacket.cpp:(.text._ZN3k4a5image10get_bufferEv[_ZN3k4a5image10get_bufferEv]+0x17): undefined reference to `k4a_image_get_buffer'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::get_size() const':
+SKPacket.cpp:(.text._ZNK3k4a5image8get_sizeEv[_ZNK3k4a5image8get_sizeEv]+0x17): undefined reference to `k4a_image_get_size'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::get_format() const':
+SKPacket.cpp:(.text._ZNK3k4a5image10get_formatEv[_ZNK3k4a5image10get_formatEv]+0x17): undefined reference to `k4a_image_get_format'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::get_width_pixels() const':
+SKPacket.cpp:(.text._ZNK3k4a5image16get_width_pixelsEv[_ZNK3k4a5image16get_width_pixelsEv]+0x17): undefined reference to `k4a_image_get_width_pixels'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::image::get_height_pixels() const':
+SKPacket.cpp:(.text._ZNK3k4a5image17get_height_pixelsEv[_ZNK3k4a5image17get_height_pixelsEv]+0x17): undefined reference to `k4a_image_get_height_pixels'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::capture::capture(k4a::capture const&)':
+SKPacket.cpp:(.text._ZN3k4a7captureC2ERKS0_[_ZN3k4a7captureC5ERKS0_]+0x35): undefined reference to `k4a_capture_reference'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::capture::operator=(k4a::capture const&)':
+SKPacket.cpp:(.text._ZN3k4a7captureaSERKS0_[_ZN3k4a7captureaSERKS0_]+0x4b): undefined reference to `k4a_capture_reference'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::capture::reset()':
+SKPacket.cpp:(.text._ZN3k4a7capture5resetEv[_ZN3k4a7capture5resetEv]+0x23): undefined reference to `k4a_capture_release'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::capture::get_color_image() const':
+SKPacket.cpp:(.text._ZNK3k4a7capture15get_color_imageEv[_ZNK3k4a7capture15get_color_imageEv]+0x1b): undefined reference to `k4a_capture_get_color_image'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::capture::get_depth_image() const':
+SKPacket.cpp:(.text._ZNK3k4a7capture15get_depth_imageEv[_ZNK3k4a7capture15get_depth_imageEv]+0x1b): undefined reference to `k4a_capture_get_depth_image'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::transformation::color_image_to_depth_camera(k4a::image const&, k4a::image const&, k4a::image*) const':
+SKPacket.cpp:(.text._ZNK3k4a14transformation27color_image_to_depth_cameraERKNS_5imageES3_PS1_[_ZNK3k4a14transformation27color_image_to_depth_cameraERKNS_5imageES3_PS1_]+0x59): undefined reference to `k4a_transformation_color_image_to_depth_camera'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4a::transformation::depth_image_to_point_cloud(k4a::image const&, k4a_calibration_type_t, k4a::image*) const':
+SKPacket.cpp:(.text._ZNK3k4a14transformation26depth_image_to_point_cloudERKNS_5imageE22k4a_calibration_type_tPS1_[_ZNK3k4a14transformation26depth_image_to_point_cloudERKNS_5imageE22k4a_calibration_type_tPS1_]+0x49): undefined reference to `k4a_transformation_depth_image_to_point_cloud'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4abt::frame::frame(k4abt::frame const&)':
+SKPacket.cpp:(.text._ZN5k4abt5frameC2ERKS0_[_ZN5k4abt5frameC5ERKS0_]+0x35): undefined reference to `k4abt_frame_reference'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4abt::frame::operator=(k4abt::frame const&)':
+SKPacket.cpp:(.text._ZN5k4abt5frameaSERKS0_[_ZN5k4abt5frameaSERKS0_]+0x4b): undefined reference to `k4abt_frame_reference'
+CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o: In function `k4abt::frame::reset()':
+SKPacket.cpp:(.text._ZN5k4abt5frame5resetEv[_ZN5k4abt5frame5resetEv]+0x23): undefined reference to `k4abt_frame_release'
+CMakeFiles/drive_the_robot.dir/src/SKPRPersonTracker.cpp.o: In function `k4abt::tracker::destroy()':
+SKPRPersonTracker.cpp:(.text._ZN5k4abt7tracker7destroyEv[_ZN5k4abt7tracker7destroyEv]+0x23): undefined reference to `k4abt_tracker_destroy'
+CMakeFiles/drive_the_robot.dir/src/SKPRPersonTracker.cpp.o: In function `k4abt::tracker::enqueue_capture(k4a::capture, std::chrono::duration<long, std::ratio<1l, 1000l> >)':
+SKPRPersonTracker.cpp:(.text._ZN5k4abt7tracker15enqueue_captureEN3k4a7captureENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE[_ZN5k4abt7tracker15enqueue_captureEN3k4a7captureENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE]+0x4e): undefined reference to `k4abt_tracker_enqueue_capture'
+CMakeFiles/drive_the_robot.dir/src/SKPRPersonTracker.cpp.o: In function `k4abt::tracker::pop_result(k4abt::frame*, std::chrono::duration<long, std::ratio<1l, 1000l> >) const':
+SKPRPersonTracker.cpp:(.text._ZNK5k4abt7tracker10pop_resultEPNS_5frameENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE[_ZNK5k4abt7tracker10pop_resultEPNS_5frameENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE]+0x5a): undefined reference to `k4abt_tracker_pop_result'
+CMakeFiles/drive_the_robot.dir/src/SKPRPersonTracker.cpp.o: In function `k4abt::tracker::create(_k4a_calibration_t const&, _k4abt_tracker_configuration_t const&)':
+SKPRPersonTracker.cpp:(.text._ZN5k4abt7tracker6createERK18_k4a_calibration_tRK30_k4abt_tracker_configuration_t[_ZN5k4abt7tracker6createERK18_k4a_calibration_tRK30_k4abt_tracker_configuration_t]+0x4d): undefined reference to `k4abt_tracker_create'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::transformation::transformation(_k4a_calibration_t const&)':
+SKWrapper.cpp:(.text._ZN3k4a14transformationC2ERK18_k4a_calibration_t[_ZN3k4a14transformationC5ERK18_k4a_calibration_t]+0x18): undefined reference to `k4a_transformation_create'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::transformation::destroy()':
+SKWrapper.cpp:(.text._ZN3k4a14transformation7destroyEv[_ZN3k4a14transformation7destroyEv]+0x23): undefined reference to `k4a_transformation_destroy'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::close()':
+SKWrapper.cpp:(.text._ZN3k4a6device5closeEv[_ZN3k4a6device5closeEv]+0x23): undefined reference to `k4a_device_close'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::get_capture(k4a::capture*, std::chrono::duration<long, std::ratio<1l, 1000l> >)':
+SKWrapper.cpp:(.text._ZN3k4a6device11get_captureEPNS_7captureENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE[_ZN3k4a6device11get_captureEPNS_7captureENSt6chrono8durationIlSt5ratioILl1ELl1000EEEE]+0x5a): undefined reference to `k4a_device_get_capture'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::start_cameras(_k4a_device_configuration_t const*)':
+SKWrapper.cpp:(.text._ZN3k4a6device13start_camerasEPK27_k4a_device_configuration_t[_ZN3k4a6device13start_camerasEPK27_k4a_device_configuration_t]+0x25): undefined reference to `k4a_device_start_cameras'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::stop_cameras()':
+SKWrapper.cpp:(.text._ZN3k4a6device12stop_camerasEv[_ZN3k4a6device12stop_camerasEv]+0x17): undefined reference to `k4a_device_stop_cameras'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::set_color_control(k4a_color_control_command_t, k4a_color_control_mode_t, int)':
+SKWrapper.cpp:(.text._ZN3k4a6device17set_color_controlE27k4a_color_control_command_t24k4a_color_control_mode_ti[_ZN3k4a6device17set_color_controlE27k4a_color_control_command_t24k4a_color_control_mode_ti]+0x2c): undefined reference to `k4a_device_set_color_control'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::get_raw_calibration() const':
+SKWrapper.cpp:(.text._ZNK3k4a6device19get_raw_calibrationEv[_ZNK3k4a6device19get_raw_calibrationEv]+0x4a): undefined reference to `k4a_device_get_raw_calibration'
+SKWrapper.cpp:(.text._ZNK3k4a6device19get_raw_calibrationEv[_ZNK3k4a6device19get_raw_calibrationEv]+0x9a): undefined reference to `k4a_device_get_raw_calibration'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::get_calibration(k4a_depth_mode_t, k4a_color_resolution_t) const':
+SKWrapper.cpp:(.text._ZNK3k4a6device15get_calibrationE16k4a_depth_mode_t22k4a_color_resolution_t[_ZNK3k4a6device15get_calibrationE16k4a_depth_mode_t22k4a_color_resolution_t]+0x3d): undefined reference to `k4a_device_get_calibration'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::device::open(unsigned int)':
+SKWrapper.cpp:(.text._ZN3k4a6device4openEj[_ZN3k4a6device4openEj]+0x36): undefined reference to `k4a_device_open'
+CMakeFiles/drive_the_robot.dir/src/SKWrapper.cpp.o: In function `k4a::record::create(char const*, k4a::device const&, _k4a_device_configuration_t const&)':
+SKWrapper.cpp:(.text._ZN3k4a6record6createEPKcRKNS_6deviceERK27_k4a_device_configuration_t[_ZN3k4a6record6createEPKcRKNS_6deviceERK27_k4a_device_configuration_t]+0x83): undefined reference to `k4a_record_create'
+CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o: In function `buildUI(_GtkApplication*, void*)':
+drive_the_robot.cpp:(.text+0x71): undefined reference to `gtk_application_window_new'
+drive_the_robot.cpp:(.text+0x7d): undefined reference to `gtk_window_get_type'
+drive_the_robot.cpp:(.text+0x92): undefined reference to `g_type_check_instance_cast'
+drive_the_robot.cpp:(.text+0xa1): undefined reference to `gtk_window_set_title'
+drive_the_robot.cpp:(.text+0xa6): undefined reference to `gtk_window_get_type'
+drive_the_robot.cpp:(.text+0xbb): undefined reference to `g_type_check_instance_cast'
+drive_the_robot.cpp:(.text+0xcd): undefined reference to `gtk_window_set_default_size'
+drive_the_robot.cpp:(.text+0xe1): undefined reference to `gtk_widget_add_events'
+drive_the_robot.cpp:(.text+0x12d): undefined reference to `g_signal_connect_data'
+drive_the_robot.cpp:(.text+0x13c): undefined reference to `gtk_widget_show_all'
+CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o: In function `main':
+drive_the_robot.cpp:(.text+0x171): undefined reference to `g_thread_init'
+drive_the_robot.cpp:(.text+0x3ad): undefined reference to `gtk_application_new'
+drive_the_robot.cpp:(.text+0x3e7): undefined reference to `g_signal_connect_data'
+drive_the_robot.cpp:(.text+0x3ec): undefined reference to `g_application_get_type'
+drive_the_robot.cpp:(.text+0x401): undefined reference to `g_type_check_instance_cast'
+drive_the_robot.cpp:(.text+0x41b): undefined reference to `g_application_run'
+drive_the_robot.cpp:(.text+0x430): undefined reference to `g_object_unref'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/ujjaini/catkin_ws/devel/.private/drive_the_robot/lib/drive_the_robot/drive_the_robot] Error 1
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

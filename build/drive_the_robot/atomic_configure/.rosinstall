@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ujjaini/catkin_ws/devel/.private/drive_the_robot/setup.sh

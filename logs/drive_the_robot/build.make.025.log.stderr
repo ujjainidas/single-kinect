@@ -1,0 +1,63 @@
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/AsyncMKPRSplitter.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/AsyncMKPRSplitter.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/AsyncMKPRSplitter.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPRSaveFrame.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/MKPRSaveFrame.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPRSaveFrame.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRAprilTag.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRAprilTag.h:5:10:[m[K [01;31m[Kfatal error: [m[Kapriltag/apriltag.h: No such file or directory
+ #include [01;31m[K<apriltag/apriltag.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRAprilTag.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPRCornerDisplay.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/MKPRCornerDisplay.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPRCornerDisplay.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPRRecord.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/MKPRRecord.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPRRecord.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPPool.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KMKConfig.h: No such file or directory
+ #include [01;31m[K"MKConfig.h"[m[K
+          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPPool.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/AsyncMKPRecipient.cpp:3:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/AsyncMKPRecipient.h:1:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/AsyncMKPRecipient.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/DepthViewer.cpp:7:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/DepthViewer.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:[m[K In member function ‘[01m[Kgboolean KFRDisplay::doDraw(cairo_t*)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:58:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gdk_pixbuf_unref(GdkPixbuf*)[m[K’ is deprecated: Use 'g_object_unref' instead [[01;35m[K-Wdeprecated-declarations[m[K]
+         gdk_pixbuf_unref(pixbuf[01;35m[K)[m[K;
+                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:34:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkpixbuf.h:33[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkcairo.h:29[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:33[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:1[m[K:
+[01m[K/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:232:12:[m[K [01;36m[Knote: [m[Kdeclared here
+ void       [01;36m[Kgdk_pixbuf_unref[m[K    (GdkPixbuf *pixbuf);
+            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

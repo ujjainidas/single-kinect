@@ -1,0 +1,61 @@
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:55:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid g_thread_init(gpointer)[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   g_thread_init(NULL[01;35m[K)[m[K;
+                     [01;35m[K^[m[K
+In file included from [01m[K/usr/include/glib-2.0/glib.h:108:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkconfig.h:13[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:30[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:3[m[K:
+[01m[K/usr/include/glib-2.0/glib/deprecated/gthread.h:265:10:[m[K [01;36m[Knote: [m[Kdeclared here
+ void     [01;36m[Kg_thread_init[m[K                   (gpointer vtable);
+          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:69:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kat[m[K’ was not declared in this scope
+   skw.setRecipient(&[01;31m[Kat[m[K);
+                     [01;31m[K^~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:69:21:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/mpl/vector/aux_/at.hpp:17:0[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector/vector0.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector/vector10.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector/vector20.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/vector.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRColorBlob.h:4[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:1[m[K:
+[01m[K/usr/include/boost/mpl/at_fwd.hpp:20:50:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::at[m[K’
+ template< typename Sequence, typename N > struct [01;36m[Kat[m[K;
+                                                  [01;36m[K^~[m[K
+In file included from [01m[K/usr/include/opencv2/videostab.hpp:79:0[m[K,
+                 from [01m[K/usr/include/opencv2/opencv.hpp:98[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPacket.h:8[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/SKPRColorBlob.h:7[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:1[m[K:
+[01m[K/usr/include/opencv2/videostab/ring_buffer.hpp:62:39:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::videostab::at[m[K’
+ template <typename T> inline const T& [01;36m[Kat[m[K(int idx, const std::vector<T> &items)
+                                       [01;36m[K^~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:82:8:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KSKWrapper[m[K’
+     skw[01;31m[K->[m[KdoOnce();
+        [01;31m[K^~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:84:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krate[m[K’ was not declared in this scope
+     [01;31m[Krate[m[K.sleep();
+     [01;31m[K^~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:84:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGDate[m[K’
+     [01;36m[Krate[m[K.sleep();
+     [01;36m[K^~~~[m[K
+     [32m[KGDate[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:88:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kthread[m[K’ was not declared in this scope
+   pthread_join([01;31m[Kthread[m[K, NULL);
+                [01;31m[K^~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:88:16:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KGThread[m[K’
+   pthread_join([01;36m[Kthread[m[K, NULL);
+                [01;36m[K^~~~~~[m[K
+                [32m[KGThread[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

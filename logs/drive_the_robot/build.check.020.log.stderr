@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/ujjaini/catkin_ws/src/drive_the_robot/CMakeLists.txt:85:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "${{GTK3_INCLUDE_DIRS}}".
+
+
+make: *** [cmake_check_build_system] Error 1

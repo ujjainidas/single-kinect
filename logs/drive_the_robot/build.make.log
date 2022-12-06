@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target drive_the_robot[0m
+[  7%] [32mBuilding CXX object CMakeFiles/drive_the_robot.dir/src/SKPRColorBlob.cpp.o[0m
+[ 15%] [32m[1mLinking CXX executable /home/ujjaini/catkin_ws/devel/.private/drive_the_robot/lib/drive_the_robot/drive_the_robot[0m
+[100%] Built target drive_the_robot

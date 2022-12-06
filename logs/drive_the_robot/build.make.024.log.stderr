@@ -1,0 +1,48 @@
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPPool.cpp:2:10:[m[K [01;31m[Kfatal error: [m[KMKConfig.h: No such file or directory
+ #include [01;31m[K"MKConfig.h"[m[K
+          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPPool.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKReceive.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KSKReceive[m[K’ does not name a type
+ [01;31m[KSKReceive[m[K::writeToFile(SKPacket& skp){
+ [01;31m[K^~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKReceive.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:[m[K In member function ‘[01m[Kvirtual void SKPRSaveFrame::receiveFrame(SKPacket&)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:28:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kskp[m[K’ was not declared in this scope
+         writeToFile([01;31m[Kskp[m[K);
+                     [01;31m[K^~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:28:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmkp[m[K’
+         writeToFile([01;36m[Kskp[m[K);
+                     [01;36m[K^~~[m[K
+                     [32m[Kmkp[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:[m[K In member function ‘[01m[Kvoid SKPRSaveFrame::writeToFile(SKPacket&)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:45:50:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KSKWrapper[m[K’
+         vector<uint8_t> v = skp.getSKWrapper()[0][01;31m[K->[m[KgetRawCalibration();
+                                                  [01;31m[K^~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:58:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass SKConfig[m[K’ has no member named ‘[01m[K_nCameras[m[K’
+     for(size_t i = 0; i < skp.getConfig().[01;31m[K_nCameras[m[K; i++) {
+                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:66:48:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KSKPacket[m[K’ and ‘[01m[Ksize_t {aka long unsigned int}[m[K’)
+         cv::imwrite(imagePath + "bgra.jpg", skp[01;31m[K[[m[Ki].getRGBColor());
+                                                [01;31m[K^[m[K
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRSaveFrame.cpp:67:53:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[KSKPacket[m[K’ and ‘[01m[Ksize_t {aka long unsigned int}[m[K’)
+         cv::imwrite(imagePath + "rgb_depth.jpg", skp[01;31m[K[[m[Ki].getRGBDepth());
+                                                     [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRSaveFrame.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:[m[K In member function ‘[01m[Kgboolean KFRDisplay::doDraw(cairo_t*)[m[K’:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:58:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid gdk_pixbuf_unref(GdkPixbuf*)[m[K’ is deprecated: Use 'g_object_unref' instead [[01;35m[K-Wdeprecated-declarations[m[K]
+         gdk_pixbuf_unref(pixbuf[01;35m[K)[m[K;
+                                [01;35m[K^[m[K
+In file included from [01m[K/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf.h:34:0[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkpixbuf.h:33[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdkcairo.h:29[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gdk/gdk.h:33[m[K,
+                 from [01m[K/usr/include/gtk-3.0/gtk/gtk.h:30[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/include/KFRDisplay.h:5[m[K,
+                 from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:1[m[K:
+[01m[K/usr/include/gdk-pixbuf-2.0/gdk-pixbuf/gdk-pixbuf-core.h:232:12:[m[K [01;36m[Knote: [m[Kdeclared here
+ void       [01;36m[Kgdk_pixbuf_unref[m[K    (GdkPixbuf *pixbuf);
+            [01;36m[K^~~~~~~~~~~~~~~~[m[K
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2

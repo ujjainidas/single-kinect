@@ -1,0 +1,90 @@
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPRSaveFrame.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/MKPRSaveFrame.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/KFRDisplay.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/KFRDisplay.h:5:10:[m[K [01;31m[Kfatal error: [m[Kgtk/gtk.h: No such file or directory
+ #include [01;31m[K<gtk/gtk.h>[m[K
+          [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPRSaveFrame.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/KFRDisplay.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/Calibration.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/Calibration.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Dense: No such file or directory
+ #include [01;31m[K<Eigen/Dense>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/AsyncMKPRSplitter.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/AsyncMKPRSplitter.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/Calibration.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPRRecord.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/MKPRRecord.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/AsyncMKPRSplitter.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPRCornerDisplay.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/MKPRCornerDisplay.h:4:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPRRecord.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRAprilTag.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/SKPRAprilTag.h:5:10:[m[K [01;31m[Kfatal error: [m[Kapriltag/apriltag.h: No such file or directory
+ #include [01;31m[K<apriltag/apriltag.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPRCornerDisplay.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPacket.cpp:1:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/SKPacket.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+ #include [01;31m[K<Eigen/Eigen>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRColorBlob.cpp:2:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/SKPacket.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+ #include [01;31m[K<Eigen/Eigen>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRAprilTag.cpp.o] Error 1
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRColorBlob.cpp.o] Error 1
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPacket.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRBodyFrameTracker.cpp:2:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/SKPacket.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+ #include [01;31m[K<Eigen/Eigen>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRBodyFrameTracker.cpp.o] Error 1
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/AsyncMKPRecipient.cpp:3:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/AsyncMKPRecipient.h:1:10:[m[K [01;31m[Kfatal error: [m[KMKPRecipient.h: No such file or directory
+ #include [01;31m[K"MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/SKPRPersonTracker.cpp:4:0[m[K:
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/./include/SKPacket.h:4:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: No such file or directory
+ #include [01;31m[K<Eigen/Eigen>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/AsyncMKPRecipient.cpp.o] Error 1
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/SKPRPersonTracker.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/MKPPool.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kinclude/MKConfig.h: No such file or directory
+ #include [01;31m[K"include/MKConfig.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/MKPPool.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/DepthViewer.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kinclude/MKPRecipient.h: No such file or directory
+ #include [01;31m[K"include/MKPRecipient.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/DepthViewer.cpp.o] Error 1
+[01m[K/home/ujjaini/catkin_ws/src/drive_the_robot/src/drive_the_robot.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kkinectwrapper/SKWrapper.h: No such file or directory
+ #include [01;31m[K"kinectwrapper/SKWrapper.h"[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/drive_the_robot.dir/src/drive_the_robot.cpp.o] Error 1
+make[1]: *** [CMakeFiles/drive_the_robot.dir/all] Error 2
+make: *** [all] Error 2
